@@ -18,6 +18,7 @@ nav{
 
 nav ul li{
     display: inline-block;
+    font-family: 'Playfair Display', serif;
 }
 h3{
     display: inline-block;
@@ -28,11 +29,19 @@ span{
 .bg{
     background-image: url('Images/aeaeaeaeaeae.jpg.webp');
     border: 2px solid black;
-    height: 1100px;
+    height: 1700px;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     
     
+}
+.white{
+    color: aliceblue;
+    font-size: 100px;
+}
+.black{
+    color: aliceblue;
 }
 a{
     color: black;
@@ -44,10 +53,52 @@ li{
 }
 .logo{
     margin-left: 60px;
+    font-family: 'Yellowtail', cursive;
+    font-size: 30px;
 }
 .bann{
     margin-right: 60px;
+    font-family: 'Playfair Display', serif;
 }
 .bag{
     margin-left: 20px;
+}
+.sec2{
+    height: 1000px;
+}
+h1 h2{
+    font-family: 'Playfair Display', serif;
+}
+.black-box{
+    border: 2px solid black;
+    height: 350px;
+    display: inline-block;
+    width: 300px;
+    background-color: black;
+    
+}
+.show{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: aliceblue;
+}
+.book{
+    background-color: aliceblue;
+    color: black;
+    width: 150px;
+    height: 60px;
+}
+.color{
+    color: aliceblue;
+}
+.size{
+    font-size: 40px;
+}
+.high{
+    margin-left: 250px;
+    margin-top: 500px;
+}
+#color{
+    margin-left: 40px;
 }
