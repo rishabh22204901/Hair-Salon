@@ -1,14 +1,15 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    border: 2px solid black;
+
 }
 header{
     width: 100%;
+    height: 70px;
 }
 .hero{
     width: 100%;
-    height: 100%;
 }
 nav{
     display:flex;
@@ -16,7 +17,7 @@ nav{
     justify-content: space-between;
     list-style: none;
     align-items: center;
-
+    height: 50px;
 }
 
 nav ul li{
@@ -26,13 +27,10 @@ nav ul li{
 h3{
     display: inline-block;
 }
-span{
-    
-}
 .bg{
     background-image: url('Images/[Downloader.la]-6460d5786b2bb.png');
     border: 2px solid black;
-    height: 1000px;
+    height: 900px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,9 +40,12 @@ span{
 .white{
     color: aliceblue;
     font-size: 100px;
+    font-weight: 400;
 }
 .black{
     color: aliceblue;
+    margin-top: -100px;
+    font-weight: 400;
 }
 a{
     color: black;
@@ -58,6 +59,7 @@ li{
     margin-left: 60px;
     font-family: 'Yellowtail', cursive;
     font-size: 30px;
+    color: rgb(243, 94, 143);
 }
 .bann{
     margin-right: 60px;
@@ -74,10 +76,12 @@ h1 h2{
 }
 .black-box{
     border: 2px solid black;
-    height: 350px;
+    height: 300px;
     display: inline-block;
-    width: 300px;
+    width: 350px;
     background-color: black;
+    margin-left: -155px;
+    margin-top: 150px;
     
 }
 .show{
@@ -100,10 +104,10 @@ h1 h2{
 }
 .high{
     margin-left: 250px;
-    margin-top: 300px;
+    margin-top: 150px;
 }
 #color{
-    margin-left: 40px;
+    margin-left: 35px;
 }
 .makeup{
     display: flex;
@@ -113,21 +117,20 @@ h1 h2{
     margin-left: 100px;
     color: black;
 }
-#m{
-    margin: 100px;
+.dora{
+    margin: 1110 auto;
+    display: block;
+    font-size: 100px;
+    
 }
 .naruto{
     background-color: #F3F4F6;
-    height: 600px;
-}
-.test{
-    border: 2px solid black;
-    width: 600px;
-    line-height: 30px;
+    height: 630px;
 }
 #bear{
     font-size: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+    font-weight: 400;
 }
 .text, .foxy{
     display: inline-block;
@@ -138,6 +141,24 @@ h1 h2{
     margin-right: 250px;
 }
 .test{
-    margin-left: 250px;
-    margin-top: 1000px;
+    margin-left: 320px;
+    margin-top: 200px;
+    border: 2px solid black;
+    width: 700px;
+    line-height: 30px;
+}
+.doctor{
+    color: rgb(56, 55, 55);
+    font-size: 1em;
+}
+.kilo{
+    text-align: center;
+}
+#doraemon{
+    margin: 0 auto;
+    display: block;
+    
+}
+.m{
+    text-align: center;
 }
