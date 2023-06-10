@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    border: 2px solid black;
+    
 
 }
 header{
@@ -30,12 +30,10 @@ h3{
 .bg{
     background-image: url('Images/[Downloader.la]-6460d5786b2bb.png');
     border: 2px solid black;
-    height: 900px;
+    height: 800px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
-    
 }
 .white{
     color: aliceblue;
@@ -81,7 +79,7 @@ h1 h2{
     width: 350px;
     background-color: black;
     margin-left: -155px;
-    margin-top: 150px;
+    margin-top: 50px;
     
 }
 .show{
@@ -113,9 +111,8 @@ h1 h2{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 5rem;
-    margin-left: 100px;
     color: black;
+    margin-top: 200px;
 }
 .dora{
     margin: 1110 auto;
@@ -126,6 +123,7 @@ h1 h2{
 .naruto{
     background-color: #F3F4F6;
     height: 630px;
+    margin-top: 50px;
 }
 #bear{
     font-size: 50px;
@@ -142,7 +140,7 @@ h1 h2{
 }
 .test{
     margin-left: 320px;
-    margin-top: 200px;
+    margin-top: 150px;
     border: 2px solid black;
     width: 700px;
     line-height: 30px;
@@ -157,8 +155,53 @@ h1 h2{
 #doraemon{
     margin: 0 auto;
     display: block;
+    font-size: 50px;
     
 }
 .m{
     text-align: center;
+    margin: 50px;
+}
+.bluesky{
+    height: 500px;
+    width: 250px;
+    background-color: rgb(234, 77, 184);
+    margin: 20px;
+    position: relative;
+}
+.pinkk{
+    text-align: center;
+    font-weight: 400;
+    font-size: 50px;
+    border-bottom: 5px solid black;
+
+}
+.stylers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+.skyking{
+    position: absolute;
+    bottom: -100px;
+    left: 60px; 
+}
+
+.lambargini{
+    font-size: 20px;
+    font-weight: 400;
+}
+.kitty{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: static;
+}
+.draggon{
+    margin-right: 1000px;
+}
+.kitty-cat{
+    margin-left: -65px;
+    margin-bottom: 120px;
 }
