@@ -25,7 +25,6 @@ h3{
 }
 .bg{
     background-image: url('Images/[Downloader.la]-6460d5786b2bb.png');
-    border: 2px solid black;
     height: 800px;
     background-size: cover;
     background-position: center;
@@ -68,7 +67,6 @@ h1 h2{
     font-family: 'Playfair Display', serif;
 }
 .black-box{
-    border: 2px solid black;
     height: 300px;
     display: inline-block;
     width: 350px;
