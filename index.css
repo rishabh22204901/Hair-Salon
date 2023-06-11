@@ -1,8 +1,6 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    
-
 }
 header{
     width: 100%;
@@ -19,7 +17,6 @@ nav{
     align-items: center;
     height: 50px;
 }
-
 nav ul li{
     display: inline-block;
     font-family: 'Playfair Display', serif;
@@ -51,7 +48,6 @@ a{
 }
 li{
     margin: 15px 35px;
- 
 }
 .logo{
     margin-left: 60px;
@@ -79,8 +75,7 @@ h1 h2{
     width: 350px;
     background-color: black;
     margin-left: -155px;
-    margin-top: 50px;
-    
+    margin-top: 150px;   
 }
 .show{
     height: 50px;
@@ -117,13 +112,13 @@ h1 h2{
 .dora{
     margin: 1110 auto;
     display: block;
-    font-size: 100px;
-    
+    font-size: 100px;    
 }
 .naruto{
     background-color: #F3F4F6;
     height: 630px;
     margin-top: 50px;
+    position: relative;
 }
 #bear{
     font-size: 50px;
@@ -141,9 +136,10 @@ h1 h2{
 .test{
     margin-left: 320px;
     margin-top: 150px;
-    border: 2px solid black;
     width: 700px;
     line-height: 30px;
+    position: relative;
+    top: 200px;
 }
 .doctor{
     color: rgb(56, 55, 55);
@@ -155,8 +151,7 @@ h1 h2{
 #doraemon{
     margin: 0 auto;
     display: block;
-    font-size: 50px;
-    
+    font-size: 50px;  
 }
 .m{
     text-align: center;
@@ -173,14 +168,13 @@ h1 h2{
     text-align: center;
     font-weight: 400;
     font-size: 50px;
-    border-bottom: 5px solid black;
-
 }
 .stylers{
     display: flex;
     flex-direction: row;
     justify-content: center;
     position: relative;
+    margin-top: 100px;
 }
 .skyking{
     position: absolute;
@@ -198,10 +192,33 @@ h1 h2{
     justify-content: center;
     position: static;
 }
-.draggon{
-    margin-right: 1000px;
-}
 .kitty-cat{
     margin-left: -65px;
     margin-bottom: 120px;
+}
+.lion-vs-tiger{
+    border-top: 2px solid black;
+    margin-top: -40px;
+    width: 50px;
+    margin: 0 auto;
+}
+.hayabusa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+.haya{
+    margin: 20px;
+}
+.gridbar{
+    display: grid;
+    height: 1800px;
+    gap: 20px;
+    grid-template-columns: 500px 500px 500px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.footer{
+    height: 1200px;
 }
