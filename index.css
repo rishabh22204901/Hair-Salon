@@ -11,7 +11,6 @@ header{
 }
 nav{
     display:flex;
-    border: 2px solid black;
     justify-content: space-between;
     list-style: none;
     align-items: center;
@@ -213,12 +212,47 @@ h1 h2{
 }
 .gridbar{
     display: grid;
-    height: 1800px;
     gap: 20px;
     grid-template-columns: 500px 500px 500px;
     justify-content: center;
     margin-top: 100px;
 }
-.footer{
-    height: 1200px;
+footer{
+    margin-top: 100px;
+    color: #ffff;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    overflow: auto;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -10px;
+    
+}
+.devops{
+    line-height: 100px;
+    font-weight: 400;
+
+}
+.about, .contentt, .lookbooks{
+    margin: 100px;
+}
+@media screen and (max-width: 1300px) {
+    ul,li{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 845px) {
+    .barbie{
+        margin-left: -200px;
+    }
+    .black-box{
+        margin-top: 100px;
+    }
+    .foxy{
+        width: 100%;
+    }
 }
