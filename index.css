@@ -239,6 +239,9 @@ footer{
 .about, .contentt, .lookbooks{
     margin: 100px;
 }
+img{
+    cursor: pointer;
+}
 @media screen and (max-width: 1300px) {
     ul,li{
         display: none;
@@ -252,7 +255,8 @@ footer{
     .black-box{
         margin-top: 100px;
     }
-    .foxy{
+    .text{
         width: 100%;
+        display: block;
     }
 }
